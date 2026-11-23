@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Meu Mural de Publicações</h1>
+    <p>
+      Clique no botão para carregar publicações da internet e use o campo
+      de busca para filtrar pelo título.
+    </p>
+  </header>
+
+  <main>
+    <button id="btn-carregar" type="button">Carregar publicações</button>
+    <input id="filtro" type="search" placeholder="Filtrar pelo título" />
+
+    <p id="mensagem" role="status"></p>
+
+    <section id="lista-posts" aria-label="Publicações"></section>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
